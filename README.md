@@ -10,6 +10,7 @@ Install **Jupyter Lab** by the following command in cmd.
 pip install jupyterlab 
 ```
 
+<br/>
 
 ## Step 2 : **Set Your Jupyter Password**
 
@@ -22,6 +23,7 @@ jupyter server password
 
 After finishing this step, there will be a file `jupyter_server_config.json` created in `C:\Users\user\.jupyter`.
 
+<br/>
 
 ## Step 3 : **Edit Configration File**
 
@@ -43,6 +45,7 @@ Until now, it is already done to login your Jupyter server on any browser of any
 But you have to carefully keep the cmd window running on your local device. Once the window is closed, the entire server will shut down and every notebook and kernel will also be stopped. \
 Therefore, the next step is a way to run the server in the background. 
 
+<br/>
 
 ## Step 4 : **Run the Server in the Background**
 ### - Create a `.bat` file
@@ -71,8 +74,9 @@ ws.Run "{The path of the batch file}",0
 
 Then save and change the `.txt` extension to `.vbs` to create vbs file. 
 
-These commands is to run the `.bat` file in the background without showing any window. In this way, you don't have to worry about the Jupyter server shutting down accidentally. 
+These commands is to run the `.bat` file in the background without showing any window. In this way, you don't have to worry about the Jupyter server shutting down accidentally.
 
+<br/>
 
 ## Step 5 : **Add the `.vbs` File to Windows Task Scheduler** 
 

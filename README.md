@@ -37,9 +37,9 @@ jupyter lab --generate-config
 ```
 ![jupyter lab --generate-config](Fig/generate-config.png)
 
-The configuration file (`jupyter_lab_config.py`) will be automatically generated in  `C:\Users\user\.jupyter`.\
+The file (`jupyter_lab_config.py`) will be automatically generated in  `C:\Users\user\.jupyter`.\
 
-Then open this file and add the followings:
+Then open the `.py` file and add the followings:
 
 ```python
 c.NotebookApp.ip = '0.0.0.0'                  # Make Jupyter server to listen on all IPs.
@@ -70,6 +70,8 @@ After saving the file, change the `.txt` extension to `.bat` to create batch fil
 
 ***Note:*** \
 *If you need to activate an environment, you can change "`{env name}`" to your environment name, Otherwise, "`activate {env name} &&`" can be directly removed.*
+
+<br/>
 
 ### 2. Create a `.vbs` file
 

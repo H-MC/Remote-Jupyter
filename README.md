@@ -42,9 +42,9 @@ The file (`jupyter_lab_config.py`) will be automatically generated in  `C:\Users
 Then open the `.py` file and add the followings:
 
 ```python
-c.NotebookApp.ip = '0.0.0.0'                  # Make Jupyter server to listen on all IPs.
-c.NotebookApp.port = 8080                     # Set the port that server will listen on.
-c.NotebookApp.notebook_dir = r'C:\Users\user' # Set the directory to use for notebooks.
+c.ServerApp.ip = '0.0.0.0'                  # Make Jupyter server to listen on all IPs.
+c.ServerApp.port = 8080                     # Set the port that server will listen on.
+c.ServerApp.notebook_dir = r'C:\Users\user' # Set the directory to use for notebooks.
 ```
 ![jupyter_lab_config](Fig/config.png)
 

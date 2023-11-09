@@ -28,7 +28,9 @@ After finishing this step, there will be a file `jupyter_server_config.json` cre
 
 <br/>
 
-### **Step 3** : Create Configration File
+### **Step 3** : Create Configuration File
+
+The configuration file can be created by: 
 
 ```cmd 
 jupyter lab --generate-config
@@ -81,7 +83,6 @@ ws.Run "{The path of the batch file}",0
 ```
 
 Then save and change the `.txt` extension to `.vbs` to create vbs file. 
-
 ![vbs file](Fig/vbs.png)
 
 These commands is to run the `.bat` file in the background without showing any window. In this way, you don't have to worry about the Jupyter server shutting down accidentally.

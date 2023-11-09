@@ -47,7 +47,7 @@ Therefore, the next step is a way to run the server in the background.
 <br/>
 
 ## Step 4 : **Run the Server in the Background**
-### - Create a `.bat` file
+### 1. Create a `.bat` file
 
 Open a notepad and enter the following command:
 
@@ -60,7 +60,7 @@ After saving the file, change the `.txt` extension to `.bat` to create batch fil
 ***Note:*** \
 *If you need to activate an environment, you can change "`{env name}`" to your environment name, Otherwise, "`activate {env name} &&`" can be directly removed.*
 
-### - Create a `.vbs` file
+### 2. Create a `.vbs` file
 
 The vbs file is going to execute the batch file created above in the background.
 
